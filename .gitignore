@@ -1,0 +1,35 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled executables
+zzmath.exe
+*.exe
+
+# Debug files
+*.log
+*.out
+*.err
+
+# Visual Studio / IDE stuff (just in case)
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.vcxproj*
+*.ncb
+*.opensdf
+*.sdf
+*.ipch
+
+# Backup / temp files
+*~
+*.swp
+*.swo
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
