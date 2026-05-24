@@ -2,7 +2,9 @@
 #define REPL_H
 
 #include <iostream>
+#include <vector>
 #include "evaluator.h"
+#include "utilities.h"
 
 int repl();
 
