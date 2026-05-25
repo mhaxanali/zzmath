@@ -16,4 +16,4 @@ zzmath "2+9/3"
 ```bash
 zzmath
 ```
-Start's the REPL mode and allows to chain calculations.
+Starts the REPL mode and allows to chain calculations.
