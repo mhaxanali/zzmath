@@ -3,6 +3,6 @@
 
 #include <iostream>
 
-int evaluate(std::string expr);
+int evaluate(std::string expr, std::string& result);
 
 #endif

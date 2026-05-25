@@ -11,7 +11,7 @@ const strVec_t RESERVED_WORDS = {"exit"};
 int repl() {
 
     std::string expr;
-    // double lastResult;
+    std::string lastResult;
 
     std::cout << "---   zzmath v0.1   ---" << '\n';
     std::cout << "---REPL mode started---" << '\n';
@@ -20,7 +20,7 @@ int repl() {
         std::cout << ">>> ";
         std::getline(std::cin, expr);
         if (!(contains(RESERVED_WORDS, expr))) {
-            evaluate(expr);
+            evaluate(expr, lastResult);
         }
         else {
             if (expr == "exit") {

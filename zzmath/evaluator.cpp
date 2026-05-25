@@ -1,7 +1,8 @@
 #include <iostream>
 
-int evaluate(std::string expr) {
+int evaluate(std::string expr, std::string& result) {
 
-    std::cout << "Evaluate Mode Working!" << '\n';
+    result = "Evaluate Mode Working!";
+    std::cout << result << '\n';
     return 0;
 }
