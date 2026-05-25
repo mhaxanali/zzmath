@@ -6,7 +6,7 @@
 
 typedef std::vector<std::string> strVec_t;
 
-const strVec_t RESERVED_WORDS = {"exit", "\0"};
+const strVec_t RESERVED_WORDS = {"exit"};
 
 int repl() {
 
