@@ -5,6 +5,8 @@
 
 int main (int argc, char* argv[]) {
 
+    std::string _;
+
     if (argc > 2) {
         std::cout << "Invalid number of arguments provided.";
         return 1;
@@ -14,7 +16,7 @@ int main (int argc, char* argv[]) {
         repl();
     }
     else {
-        evaluate(argv[1]);
+        evaluate(argv[1], _);
     }
 
 
