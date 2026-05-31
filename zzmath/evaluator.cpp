@@ -2,13 +2,13 @@
 #include <algorithm>
 #include <vector>
 
+#include "utilities.h"
+
 typedef std::vector<std::string> strVec_t;
 
 strVec_t tokenize(std::string& expr);
 void handleUnaryMinus(strVec_t& tokens, std::string& result);
-bool contains(const strVec_t& compSlice, const std::string& compStr);
 void solveTokens(strVec_t& tokens, std::string& result);
-int count(const strVec_t& col, const std::string& com);
 void solveInnermostBrackets(strVec_t& tokens, std::string& result);
 
 char opers[8] = "+-*/()^";
